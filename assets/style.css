@@ -1,0 +1,58 @@
+
+* { 
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+}
+.corbarra{
+    display: flex;
+    align-items: center;
+    background-color:#673AB7 ;
+    color: white;
+    opacity: 0.9;
+    justify-content: space-between;
+}
+
+.barra-superior {
+    display: flex;
+    align-items: center;
+}
+
+.barra-superior ul{
+    display: flex;
+    list-style: none;
+    margin-inline: 10px;
+}
+
+.barra-superior li {
+    margin-inline: 10px;
+}
+.espaco {
+    margin: 15px;
+}
+.barra-superior2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+    color: white;
+    
+}
+
+.inferior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50vw;
+    height: 20vh;
+    border-radius: 30px;
+    opacity: 0.7;
+   
+}
+
